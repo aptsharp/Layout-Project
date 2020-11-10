@@ -1,5 +1,7 @@
 ![logo-artigo-html](https://user-images.githubusercontent.com/6175226/98736150-37df4880-2383-11eb-8a1c-a4bb7fd1a2b7.png)
 
+
+
 ## Descrição:
 
 - O projeto consiste em replicar a tela de login do Instagram de forma responsiva usando principalmente o CSS 3.
@@ -13,3 +15,5 @@
 - HTML
 - CSS 3
 - Visual Studio Code
+
+[![Package Control total downloads](https://img.shields.io/packagecontrol/dt/SwitchDictionary.svg)](https://packagecontrol.io/packages/SwitchDictionary)
