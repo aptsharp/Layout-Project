@@ -9,7 +9,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(240, 242, 245);
     margin: 0;
     padding: 0;
     display: flex;
@@ -20,5 +20,110 @@ body {
     align-items: center;
     justify-content: start;
     width: 60%;
-    height: 100vh;
+    height: 100vh
 }
+.facebook-faceimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%; 
+    flex-direction: column;
+}
+.face-logo img{
+    height: 50rem;
+
+}
+.mensagem{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+}
+
+.perfil-imagem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;/*para organizar a coluna horizontal vertical*/
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+.facebook-perfil{
+    height: 8rem;
+    width: 8rem;
+}
+.facebook-login{
+
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+
+
+}
+.group:nth-child(1){
+    min-height: 19rem;
+}
+.facebook-logout{
+    color: #0095f6;
+    margin-top: 1rem;
+
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;/*para organizar a coluna horizontal vertical*/
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+
+}
+.not-account{
+    color: rgb(160, 160, 160);
+
+}
+.link-blue{
+    color: #0095f6;
+
+}
+.mensagem-fim{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;/*para organizar a coluna horizontal vertical*/
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+/* para midias moveis*/
+
+@media (max-width: 1024px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        background-color: #ffffff;
+    }
+    .facebook-wrapper{
+        width: 90%;
+    }
+    .facebook-faceimg{
+        display: none;
+    }
+    .facebook-login{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
+}
+
