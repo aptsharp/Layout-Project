@@ -116,6 +116,13 @@ body {
     background-image: url('./img/apple-button.png');
 }
 
+.facebook-btn{
+    background-color: #0095f6;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 4px;
+}
+
 /* para midias moveis e responsividade */
 
 @media (max-width: 1024px){
@@ -140,6 +147,4 @@ body {
     .group{
         border: 1px solid transparent;
     }
-
-
 }
